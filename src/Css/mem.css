@@ -1,0 +1,211 @@
+.wrap {
+    width: 100vw;
+    overflow-x: hidden;
+    margin-top: 40px;
+  
+    
+    
+    
+  
+
+}
+.sub-wrap{
+    width: 100vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+  
+}
+.teach-box{
+    width: 100%;
+    display: flex;justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#blue-txt{
+    color: rgb(0, 149, 255);
+}
+#founder{
+    background-color: aliceblue;
+    border-radius: 40px;
+}
+.fac-con{
+  
+    
+ 
+    overflow: hidden;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fac{
+    padding: 1%;
+    width: 32%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid gray;
+    
+    
+}
+#fac3{
+    border-right: 0px solid gray;
+    
+}
+
+.prof-head {
+    display: flex;
+    width: 84vw;
+ 
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.heading{
+    text-align: center;
+}
+
+.prof-con {
+    display: flex;
+    justify-content: space-evenly;
+    width: 84vw;
+    flex-wrap: wrap;
+
+
+}
+
+.cardd {
+    background-color: white;
+    height: 400px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    transform:  scale(0.85);
+    
+
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    padding: 1%;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border-bottom: 2px solid gray;
+    
+
+}
+.cardd:hover{
+    transform: scale(0.86);
+    transition: 5ms ease-out;
+}
+
+
+.img-con {
+    width: 100%;
+    height: 100%;
+
+
+
+
+
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black;
+    border-radius: 50px; */
+}
+.mem-txt{
+
+    display: flex;
+    flex-direction: column;
+ 
+    
+ 
+
+}
+.linked{
+    font-size: 35px;
+    text-align: center;
+    margin-left: 7px;
+  
+}
+
+.immg {
+    width: 100%;
+   height: 100%;
+    border-radius:50px;
+
+
+
+
+
+}
+
+.mem-name {
+    text-align: center;
+    font-size: 20px;
+}
+@media(max-width: 768px) {
+    .cardd {
+        height: 80%;
+   
+        width: 40%;
+        border-radius: 20px;
+        transform:  scale(0.9);
+
+    }
+    .cardd:hover{
+        transform: scale(0.92);
+        transition: 5ms ease-out;
+    }
+    .immg {
+        height: 150px;
+        border-radius:20px;
+        
+       
+    
+    
+    
+    
+    
+    }
+    .linked{
+        font-size: 25px;
+      
+    }
+    .fac-con{
+        width: 100vw;
+        
+    
+        overflow: hidden;
+        padding: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .fac{
+        padding: 1%;
+        width: 90%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-right: 0px solid gray;
+        border-bottom: 2px solid gray;
+        
+        
+    }
+    #fac3{
+        border-right: 0px solid gray;
+        
+    }
+
+}
